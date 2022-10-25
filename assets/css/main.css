@@ -1,0 +1,192 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+.btn {
+  display: flex;
+  margin: 5px;
+}
+.btn p {
+  margin: 0;
+  font-size: 18px;
+}
+
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #E7F1FB;
+}
+.about svg {
+  margin: 10px;
+}
+.about img {
+  width: 100%;
+  background: #E7F1FB;
+}
+.about h6 {
+  font-size: 18px;
+  color: #455A74;
+  margin: 15px 0;
+}
+.about h2 {
+  font-size: 72px;
+  margin: 15px 0;
+}
+
+
+.howItWork p {
+  font-size: 20px;
+  color: #455A74;
+  margin: 25px 0;
+}
+.howItWork-1, .howItWork-2, .howItWork-3 {
+  margin: 20vh 0;
+}
+
+.howItWork h1 {
+  font-size: 54px;
+  text-align: center;
+  margin: 15px 0;
+}
+ol {
+  margin-left: -1rem;
+}
+li {
+  list-style: none;
+  text-indent: -1em;
+  font-size: 18px;
+}
+li::before {
+  content: '✔';
+  padding-right: 5px;
+  color: green;
+}
+
+
+.pricing{
+  min-height: 100vh;
+  background: #EAEEF2;
+}
+.pricing .table{
+	border-top:1px solid black;
+	background: white;
+}
+.pricing .table th,
+.pricing .table {
+	text-align: center;
+}
+.pricing .table th,
+.pricing .table td {
+	padding: 20px 10px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.pricing .table th {
+	width: 25%;
+	font-size: 20px;
+	font-weight: 400;
+	border-bottom: 0;
+	background: #0A121E;
+	color: white;
+	text-transform: uppercase;
+}
+.pricing .table tr:nth-child(odd){
+	background: #E7F1FB;
+}
+.pricing .table td:first-child{
+	padding-left: 20px;
+	text-align: left;
+	padding-top:35px;
+	background: #E7F1FB;
+}
+.pricing tr td .ptable-title {
+	font-size: 22px;
+	font-weight:400;
+	color: #0A121E;
+}
+.pricing tr td .ptable-title i {
+	width: 23px;
+	line-height: 25px;
+	text-align: right;
+	margin-right: 5px;
+}
+.pricing .ptable-star {
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.pricing .ptable-star i {
+	width: 8px;
+	font-size: 13px;
+}
+.pricing .ptable-price {
+	display: block;
+}
+.pricing tr td {
+	font-size: 16px;
+	text-transform:uppercase;
+}
+.pricing tr td.bg{
+	background: #1673FF;
+  border: 3px #1673FF solid;
+}
+.pricing tr td.bg:hover{
+  box-sizing: border-box;
+  border:3px white solid;
+}
+.pricing tr td.bg a:hover {
+  font-weight: bold;
+}
+.pricing tr td.bg-red a,
+.pricing tr td.bg-green a,
+.pricing tr td.bg-lblue a{
+	color: #fff;
+}
+.pricing tr td i {
+	display: block;
+	margin-bottom: 12px;
+	font-size: 30px;
+}
+.pricing tr td:first-child i{
+	display:inline;
+	margin-bottom:0;
+	font-size:20px;
+}
+
+.footer {
+  max-width: 100%;
+}
+.footer-1 {
+  min-height: 45vh;
+}
+.footer-2 {
+  background: #0A121E;
+  color: white;
+  min-height: 45vh;
+  padding-top: 10vh;
+}
+.footer .slogan {
+  font-size: 56px;
+  margin: 30px;
+  text-align: center;
+}
+.footer a {
+  color: white;
+}
+.footer h5 {
+  margin: 20px 0;
+}
+.footer .logo {
+  margin: 15px 0;
+  width: 102px;
+  height: 27px;
+}
+.button-group {
+  margin: 30px 0 50px 0;
+}
+
+.about .btn, .footer .btn {
+  min-height: 50px;
+}
