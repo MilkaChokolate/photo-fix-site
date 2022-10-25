@@ -48,5 +48,9 @@ export default {
   build: {
   },
 
-  target: 'static'
+  target: 'static',
+
+  generate: {
+    dir: 'my-site'
+  }
 }
