@@ -15,16 +15,9 @@ body {
 
 
 .about {
-  width: 100%;
   min-height: 100vh;
+  padding-top: 10vh;
   background-color: #E7F1FB;
-}
-.about svg {
-  margin: 10px;
-}
-.about img {
-  width: 100%;
-  background: #E7F1FB;
 }
 .about h6 {
   font-size: 18px;
@@ -35,6 +28,12 @@ body {
   font-size: 72px;
   margin: 15px 0;
 }
+.about .social-network{
+  padding: 15px;
+}
+.about .social-network svg {
+  margin: 5px;
+}
 
 
 .howItWork p {
@@ -42,8 +41,8 @@ body {
   color: #455A74;
   margin: 25px 0;
 }
-.howItWork-1, .howItWork-2, .howItWork-3 {
-  margin: 20vh 0;
+.step-1, .step-2, .step-3, .step-4 {
+  margin: 10vh 0;
 }
 
 .howItWork h1 {
@@ -190,3 +189,6 @@ li::before {
 .about .btn, .footer .btn {
   min-height: 50px;
 }
+
+
+
