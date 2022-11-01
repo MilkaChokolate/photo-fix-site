@@ -1,5 +1,5 @@
 <template>
-<div class="howItWork">
+<div id="howItWorks" class="howItWork">
   <h1>How does it work?</h1>
 
   <div class="step-1 d-flex justify-content-center flex-wrap align-items-center">

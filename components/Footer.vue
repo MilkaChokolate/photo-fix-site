@@ -1,28 +1,5 @@
 <template>
   <div class="footer">
-    <div class="bg-primary footer-1 text-white d-flex flex-column justify-content-center align-items-center">
-
-      <div class="slogan col-lg-6 col-md-8 col-sm-10">
-        Break free from government & big tech overwatch. Go Blank.
-      </div>
-
-      <div class="button-group row col-lg-5 col-md-6 col-sm-8 justify-content-center">
-        <button type="button" class="btn text-white col-lg-5 col-md-5 col-sm-5 d-flex align-items-center justify-content-between" style="background: rgba(10, 18, 30, 0.7)">
-          <p>Request Early Access</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0v6z"/>
-          </svg>
-        </button>
-        <button type="button" class="btn btn-outline-light col col-lg-5 col-md-5 col-sm-5 d-flex align-items-center justify-content-between"><p>Whitepaper</p>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0v6z"/>
-          </svg>
-        </button>
-
-      </div>
-    </div>
-
-
     <div class="text-white footer-2 d-flex flex-wrap">
 
       <div class="col-lg-5 col-md-5 col-sm-12">

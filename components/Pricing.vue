@@ -1,118 +1,84 @@
 <template>
-<div class="pricing d-flex align-items-center justify-content-center">
-  <div class="container">
-    <div class="pricing-table table-responsive">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>&nbsp;</th>
-            <th>
-              Free
-              <span class="ptable-star red">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-                <i class="fa fa-star-o"></i>
-              </span>
-              <span class="ptable-price">$0.0</span>
-            </th>
-            <th class="highlight">
-              Basic
-              <span class="ptable-star green">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </span>
-              <span class="ptable-price">$99.0</span>
-            </th>
-            <th>
-              Business
-              <span class="ptable-star lblue">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </span>
-              <span class="ptable-price">$149.0</span>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><span class="ptable-title"><i class="fa fa-hdd-o"></i> Storage</span></td>
-            <td>
-            <i class="fa fa-hdd-o red"></i>
-              500 MB
-            </td>
-            <td>
-              <i class="fa fa-hdd-o green"></i>
-              100 GB
-            </td>
-            <td>
-              <i class="fa fa-hdd-o lblue"></i>
-              500 GB
-            </td>
-          </tr>
-          <tr>
-            <td><span class="ptable-title"><i class="fa fa-signal"></i> Band Width</span></td>
-            <td>
-              <i class="fa fa-signal red"></i>
-              100 TB
-            </td>
-            <td>
-              <i class="fa fa-signal green"></i>
-              500 TB
-            </td>
-            <td>
-              <i class="fa fa-signal lblue"></i>
-              1000 TB
-            </td>
-          </tr>
-          <tr>
-            <td><span class="ptable-title"><i class="fa fa-shield"></i> Security</span></td>
-            <td>
-              <i class="fa fa-shield red"></i>
-              100% Secure
-            </td>
-            <td>
-              <i class="fa fa-shield green"></i>
-              100% Secure
-            </td>
-            <td>
-              <i class="fa fa-shield lblue"></i>
-              100% Secure
-            </td>
-          </tr>
-          <tr>
-            <td><span class="ptable-title"><i class="fa fa-headphones"></i> Support</span></td>
-            <td>
-              <i class="fa fa-times red"></i>
-              No Support
-            </td>
-            <td>
-              <i class="fa fa-phone green"></i>
-              Phone
-            </td>
-            <td>
-              <i class="fa fa-envelope-o lblue"></i>
-              E-mail / Phone
-            </td>
-          </tr>
-
-          <tr>
-            <td>&nbsp;</td>
-            <td class="bg"><a class="btn text-white" href="#">Sign Up</a></td>
-            <td class="bg"><a class="btn text-white" href="#">Sign Up</a></td>
-            <td class="bg"><a class="btn text-white" href="#">Sign Up</a></td>
-          </tr>
-        </tbody>
-      </table>
+<div id="pricing" class="pricing d-flex align-items-center justify-content-center">
+  <section id="price-section">
+    <div class="container">
+      <div class="row justify-content-center gapsectionsecond">
+        <div class="col-lg-7 text-center">
+          <div class="title-big pb-3 mb-3">
+            <h3>SERVICE PRICES</h3>
+          </div>
+          <p class="description-p text-muted pe-0 pe-lg-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas optio reiciendis deleniti voluptatem facere sequi, quia, est sed dicta aliquid quidem facilis culpa iure perferendis? Dolor ad quia deserunt.
+          </p>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-4 pb-5 pb-lg-0">
+          <div class="wrap-price">
+            <div class="price-innerdetail text-center">
+              <h5>MINIMUM BASIC SERVICE</h5>
+              <p class="prices">150$</p>
+              <div class="detail-pricing">
+                <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
+                <span class="float-right">4 Hours</span>
+              </div>
+              <div class="detail-pricing">
+                <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
+                <span class="float-right">50 - 200</span>
+              </div>
+              <div class="detail-pricing">
+                <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
+                <span class="float-right">Style</span>
+              </div>
+              <a href="#" class="btn btn-primary mt-5 align-items-center">Schedule</a>
+            </div>
+        </div>
     </div>
-  </div>
+    <div class="col-lg-4 pb-5 pb-lg-0">
+      <div class="wrap-price center-wrap">
+        <div class="price-innerdetail text-center">
+          <h5>PRO SERVICE</h5>
+          <p class="prices">350$</p>
+          <div class="detail-pricing">
+            <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
+            <span class="float-right">4 Hours</span>
+          </div>
+          <div class="detail-pricing">
+            <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
+            <span class="float-right">50 - 200</span>
+          </div>
+          <div class="detail-pricing">
+            <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
+            <span class="float-right">Style</span>
+          </div>
+          <a href="#" class="btn btn-primary mt-5 align-items-center">Schedule</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4 pb-5 pb-lg-0">
+        <div class="wrap-price">
+          <div class="price-innerdetail text-center">
+            <h5>STANDART SERVICE</h5>
+            <p class="prices">250$</p>
+            <div class="detail-pricing">
+              <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
+              <span class="float-right">4 Hours</span>
+            </div>
+            <div class="detail-pricing">
+              <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
+              <span class="float-right">50 - 200</span>
+            </div>
+            <div class="detail-pricing">
+              <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
+              <span class="float-right">Style</span>
+            </div>
+            <a href="#" class="btn btn-primary mt-5 align-items-center">Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 </div>
 </template>
 

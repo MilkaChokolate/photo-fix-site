@@ -3,6 +3,7 @@
     <About></About>
     <HowDoesItWork></HowDoesItWork>
     <Pricing></Pricing>
+    <Feedback></Feedback>
     <Footer></Footer>
   </NuxtLayout>
 
@@ -12,6 +13,6 @@
 import HowDoesItWork from "../components/HowDoesItWork";
 export default {
   name: 'IndexPage',
-  components: {HowDoesItWork}
+  components: { HowDoesItWork }
 }
 </script>
