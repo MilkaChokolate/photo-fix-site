@@ -14,10 +14,10 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
         <div class="navbar-nav">
-          <nuxt-link :to="{ path: '/',hash:'#about'}"><a class="nav-item nav-link">Why Blank</a></nuxt-link>
-          <nuxt-link :to="{ path: '/',hash:'#howItWorks'}"><a class="nav-item nav-link">How it works</a></nuxt-link>
-          <nuxt-link :to="{ path: '/',hash:'#pricing'}"><a class="nav-item nav-link">Pricing</a></nuxt-link>
-          <nuxt-link :to="{ path: '/',hash:'#feedback'}"><a class="nav-item nav-link">Feedback</a></nuxt-link>
+          <nuxt-link :to="{ path: '/',hash:'#about'}" class="nav-item nav-link">Why Blank</nuxt-link>
+          <nuxt-link :to="{ path: '/',hash:'#howItWorks'}" class="nav-item nav-link">How it works</nuxt-link>
+          <nuxt-link :to="{ path: '/',hash:'#pricing'}" class="nav-item nav-link">Pricing</nuxt-link>
+          <nuxt-link :to="{ path: '/',hash:'#feedback'}" class="nav-item nav-link">Feedback</nuxt-link>
         </div>
       </div>
     </div>
