@@ -1,7 +1,7 @@
 <template>
-<div id="about" class="about w-100 d-flex justify-content-center align-items-center">
+<div id="about" class="about w-100 d-flex justify-content-center align-items-center flex-wrap">
 
-    <div class="col-lg-5 col-md-11 col-sm-11">
+    <div class="col-lg-5 col-md-12 col-sm-12">
       <div class="social-network row justify-content-center">
       <div class="d-flex">
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div class="col-lg-5 col-md-12 col-sm-12 justify-content-center">
+    <div class="col-lg-6 col-md-12 col-sm-12 justify-content-center">
       <img src="../static/headerImage.png" class="w-100">
     </div>
 </div>
