@@ -46,7 +46,7 @@ body {
   margin: 25px 0;
 }
 .step-1, .step-2, .step-3, .step-4 {
-  margin: 10vh 0;
+  margin: 5vh 0;
 }
 
 .howItWork h1 {
@@ -188,6 +188,9 @@ li::before {
 
 h6 {
   color: #455A74;
+  margin: 20px 0;
+}
+h2 {
   margin: 20px 0;
 }
 h3 {
