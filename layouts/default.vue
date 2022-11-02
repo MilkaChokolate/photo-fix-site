@@ -14,10 +14,22 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
         <div class="navbar-nav">
-          <nuxt-link :to="{ path: '/',hash:'#about'}" class="nav-item nav-link">Why Blank</nuxt-link>
-          <nuxt-link :to="{ path: '/',hash:'#howItWorks'}" class="nav-item nav-link">How it works</nuxt-link>
-          <nuxt-link :to="{ path: '/',hash:'#pricing'}" class="nav-item nav-link">Pricing</nuxt-link>
-          <nuxt-link :to="{ path: '/',hash:'#feedback'}" class="nav-item nav-link">Feedback</nuxt-link>
+          <nuxt-link
+            :to="{ path: '/',hash:'#about'}"
+            class="nav-item nav-link"
+            @click.native="closeMenu($event)">Why Blank</nuxt-link>
+          <nuxt-link
+            :to="{ path: '/',hash:'#howItWorks'}"
+            class="nav-item nav-link"
+            @click.native="closeMenu($event)">How it works</nuxt-link>
+          <nuxt-link
+            :to="{ path: '/',hash:'#pricing'}"
+            class="nav-item nav-link"
+            @click.native="closeMenu($event)">Pricing</nuxt-link>
+          <nuxt-link
+            :to="{ path: '/',hash:'#feedback'}"
+            class="nav-item nav-link"
+            @click.native="closeMenu($event)">Feedback</nuxt-link>
         </div>
       </div>
     </div>
@@ -31,8 +43,10 @@
 export default {
   name: "default",
   methods: {
-
-  }
+      closeMenu($event) {
+          $($event.currentTarget).closest('.navbar-collapse').collapse('hide');
+      }
+   }
 }
 </script>
 

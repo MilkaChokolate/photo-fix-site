@@ -2,8 +2,8 @@
   <div id="feedback" class="page-section feedback">
     <div class="container">
       <div class="text-center text-white feedback-text">
-        <h3>Contact us</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h2>Contact us</h2>
+        <h6>Lorem ipsum dolor sit amet consectetur.</h6>
       </div>
       <form id="contactForm" data-sb-form-api-token="API_TOKEN">
         <div class="row align-items-stretch mb-5">

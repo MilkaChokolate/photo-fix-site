@@ -52,7 +52,7 @@ export default {
     scrollBehavior(to) {
       if (to.hash) {
         return window.scrollTo({
-          top: document.querySelector(to.hash).offsetTop -45,
+          top: document.querySelector(to.hash).offsetTop - 45,
           behavior: 'smooth'
         })
       }

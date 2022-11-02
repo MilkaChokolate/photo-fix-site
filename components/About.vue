@@ -16,7 +16,7 @@
       </div>
     </div>
       <h6 class="col-lg-12 col-md-10 col-sm-8">The most private, non-custodial Ethereum wallet</h6>
-      <h2 class="col-lg-12 col-md-10 col-sm-8">Reclaim privacy on your Ethereum transfers</h2>
+      <h1 class="col-lg-12 col-md-10 col-sm-8">Reclaim privacy on your Ethereum transfers</h1>
       <h6 class="col-lg-12 col-md-10 col-sm-8">Blank hides your financial data by mixing transfers with the pool of funds within Blank,
         ensuring that outward transfers remain anonymous.
         Your privacy level only goes up with each additional transfer inside.

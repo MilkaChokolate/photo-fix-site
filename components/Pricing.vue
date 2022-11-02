@@ -5,11 +5,11 @@
       <div class="row justify-content-center gapsectionsecond">
         <div class="col-lg-7 text-center">
           <div class="title-big pb-3 mb-3">
-            <h3>SERVICE PRICES</h3>
+            <h2>SERVICE PRICES</h2>
           </div>
-          <p class="description-p text-muted pe-0 pe-lg-0">
+          <h6 class="description-p text-muted pe-0 pe-lg-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas optio reiciendis deleniti voluptatem facere sequi, quia, est sed dicta aliquid quidem facilis culpa iure perferendis? Dolor ad quia deserunt.
-          </p>
+          </h6>
         </div>
       </div>
       <div class="row pt-5">
