@@ -1,9 +1,9 @@
 <template>
-<div>
+<div class="navigation">
   <nav class="navbar navbar-expand-lg" style="background: #E7F1FB; position: fixed; width: 100%; z-index: 100">
     <div class="container-fluid">
       <a href="" class="navbar-brand">
-        <img src="../static/Frame.png" style="width: 102px; height: 27px">
+        <span class="logo">Фотофиксация</span>
       </a>
       <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span>
@@ -17,19 +17,19 @@
           <nuxt-link
             :to="{ path: '/',hash:'#about'}"
             class="nav-item nav-link"
-            @click.native="closeMenu($event)">Why Blank</nuxt-link>
+            @click.native="closeMenu($event)">О приложении</nuxt-link>
           <nuxt-link
             :to="{ path: '/',hash:'#howItWorks'}"
             class="nav-item nav-link"
-            @click.native="closeMenu($event)">How it works</nuxt-link>
+            @click.native="closeMenu($event)">Как работает</nuxt-link>
           <nuxt-link
             :to="{ path: '/',hash:'#pricing'}"
             class="nav-item nav-link"
-            @click.native="closeMenu($event)">Pricing</nuxt-link>
+            @click.native="closeMenu($event)">Прайс</nuxt-link>
           <nuxt-link
             :to="{ path: '/',hash:'#feedback'}"
             class="nav-item nav-link"
-            @click.native="closeMenu($event)">Feedback</nuxt-link>
+            @click.native="closeMenu($event)">Связаться с нами</nuxt-link>
         </div>
       </div>
     </div>

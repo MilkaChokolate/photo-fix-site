@@ -18,9 +18,16 @@ body {
 }
 
 
-.nav-link {
+.navigation .nav-link {
   color: #455A74;
   cursor: pointer;
+}
+.navigation .logo {
+  width: 102px;
+  height: 27px;
+  font-size: 27px;
+  font-weight: bold;
+  color: #0A121E;
 }
 
 
@@ -203,13 +210,13 @@ li {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   h1 {
-    font-size: 32px;
-  }
-  h2 {
     font-size: 26px;
   }
+  h2 {
+    font-size: 24px;
+  }
   h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
   h6, li {
     font-size: 18px;
@@ -219,10 +226,10 @@ li {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   h1 {
-    font-size: 42px;
+    font-size: 36px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 34px;
   }
   h3 {
     font-size: 30px;
@@ -235,10 +242,10 @@ li {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   h1 {
-    font-size: 52px;
+    font-size: 46px;
   }
   h2 {
-    font-size: 42px;
+    font-size: 40px;
   }
   h3 {
     font-size: 30px;
@@ -251,7 +258,7 @@ li {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   h1 {
-    font-size: 62px;
+    font-size: 54px;
   }
   h2 {
     font-size: 42px;
@@ -267,7 +274,7 @@ li {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   h1 {
-    font-size: 72px;
+    font-size: 64px;
   }
   h2 {
     font-size: 52px;
