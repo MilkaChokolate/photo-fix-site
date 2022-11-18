@@ -2,43 +2,43 @@
   <div id="feedback" class="page-section feedback">
     <div class="container">
       <div class="text-center text-white feedback-text">
-        <h2>Contact us</h2>
-        <h6>Lorem ipsum dolor sit amet consectetur.</h6>
+        <h2>Связаться с нами</h2>
+        <h6>Если у вас возникли вопросы по приложению или рекомендации по его улучшению,
+          то вы можете написать об этом нам здесь.</h6>
       </div>
       <form id="contactForm" data-sb-form-api-token="API_TOKEN">
         <div class="row align-items-stretch mb-5">
           <div class="col-md-6">
             <div class="form-group">
 
-              <input id="name" class="form-control" type="text" placeholder="Your Name *" data-sb-validations="required">
+              <input id="name" class="form-control" type="text" placeholder="Имя *" data-sb-validations="required">
               <div class="invalid-feedback" data-sb-feedback="name:required">
-                A name is required.
+                Пожалуйста, укажите имя.
               </div>
             </div>
             <div class="form-group">
 
-              <input id="email" class="form-control" type="email" placeholder="Your Email *" data-sb-validations="required,email">
+              <input id="email" class="form-control" type="email" placeholder="Почта *" data-sb-validations="required,email">
               <div class="invalid-feedback" data-sb-feedback="email:required">
-                An email is required.
+                Пожалуйста, укажите почту.
               </div>
               <div class="invalid-feedback" data-sb-feedback="email:email">
-                Email is not valid.
+                Неверная почта.
               </div>
             </div>
             <div class="form-group mb-md-0">
 
-              <input id="phone" class="form-control" type="tel" placeholder="Your Phone *" data-sb-validations="required">
+              <input id="phone" class="form-control" type="tel" placeholder="Номер телефона *" data-sb-validations="required">
               <div class="invalid-feedback" data-sb-feedback="phone:required">
-                A phone number is required.
+                Пожалуйста, укажите номер телефона.
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group form-group-textarea mb-md-0">
-
-              <textarea id="message" class="form-control" placeholder="Your Message *" data-sb-validations="required" />
+              <textarea id="message" class="form-control" placeholder="Комментарий *" data-sb-validations="required" />
               <div class="invalid-feedback" data-sb-feedback="message:required">
-                A message is required.
+                Пожалуйста, напишите что-нибудь.
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
 
         <div class="text-center d-flex justify-content-end pb-5">
           <button id="submitButton" class="btn btn-light btn-xl align-items-center align-self-end" type="submit">
-            Send Message
+            Отправить
           </button>
         </div>
       </form>
