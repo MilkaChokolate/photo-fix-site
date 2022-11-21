@@ -4,15 +4,15 @@
     <div class="container">
       <div class="row justify-content-center gapsectionsecond">
         <div class="col-lg-7 text-center">
-          <div class="title-big pb-2 mb-2">
+          <div class="title-big mb-3">
             <h2>Стоимость услуг</h2>
           </div>
           <h6 class="description-p text-muted pe-0 pe-lg-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas optio reiciendis deleniti voluptatem facere sequi, quia, est sed dicta aliquid quidem facilis culpa iure perferendis? Dolor ad quia deserunt.
+            Вы можете вытрать тарифный план в зависимости от ваших потребностей
           </h6>
         </div>
       </div>
-      <div class="row pt-5">
+      <div class="row pt-4">
         <div class="col-lg-4 pb-5 pb-lg-0">
           <div class="wrap-price">
             <div class="price-innerdetail text-center">

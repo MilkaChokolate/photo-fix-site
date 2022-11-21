@@ -1,6 +1,6 @@
 <template>
 <div id="howItWorks" class="howItWork">
-  <h2 class="text-center">How does it work?</h2>
+  <h2 class="text-center">Как работает приложение?</h2>
 
   <div class="step-1 d-flex justify-content-center flex-wrap align-items-center">
     <div class="col-lg-5 col-md-5 col-sm-5 d-flex align-items-center justify-content-center">
@@ -60,16 +60,18 @@
       <img src="../static/howWork2.png" class="col-lg-6 col-md-8 col-sm-8">
     </div>
     <div class="col-lg-5 col-md-5 col-sm-5 order-first">
-      <h3>Metamask x Tornado Cash</h3>
-      <h6>Your funds go into the smart contract as yours but they exit named Blank.
-        We use cryptographic proofs to guarantee that no one can link your withdrawals to deposits,
-        unless you want them to. In technical language, we use the zkSnark technology to do it.
-        Only the user gets the secret to a given deposit, which allows to withdraw the correlating funds from Blank under a new address.
+      <h3>Приложение дает возможность создавать отчеты в один клик.</h3>
+      <h6>
+        Отчеты и направлять их по почте, доступны несколько вариантов оформления отчетов, регулировка отсупов и размера прилагаемых фотографий.
+        Также доступпен экспорт отчетов в PDF, Word и Excel
       </h6>
       <ol>
-        <li>ETH, WBTC and all ERC-20 support</li>
-        <li>ETH, WBTC and all ERC-20 support</li>
-        <li>Partial Withdraw</li>
+        <li>Заполняете формы в задачах в соответсвии с той информацией, которую хотите видеть в отчете</li>
+        <li>Загружаете фотографии</li>
+        <li>Выполняете и завершаете поставленные задачи</li>
+        <li>Выбираете формат отчета</li>
+        <li>Нажимаете кнопку создать отчет</li>
+        <li class="text-danger">Получаете готовый отчет</li>
       </ol>
     </div>
   </div>
