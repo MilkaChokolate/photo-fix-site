@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="row pt-4">
-        <div class="col-lg-4 pb-5 pb-lg-0">
+        <div class="col-lg-4 pb-3 pb-lg-0">
           <div class="wrap-price">
             <div class="price-innerdetail text-center">
               <h5>Старт</h5>

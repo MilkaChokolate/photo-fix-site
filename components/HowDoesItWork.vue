@@ -7,13 +7,12 @@
      <img src="../static/howWork1.png" class="col-lg-8 col-md-12 col-sm-12">
     </div>
     <div class="col-lg-5 col-md-5 col-sm-5">
-      <h3>The first-ever Chrome extension that gives you an untraceable identity.</h3>
-      <h6>Create a wallet, receive a backup seed key,
-        deposit your crypto $$$ and let automation do the rest - we'll mix your funds with the pool
-        of coins in Blank to hide their origin.
+      <h3>Фотофиксация дает возможность сформировать несколько задач в рамках одного проекта.</h3>
+      <h6>Вы можете создавать карточки проектов и задачи по ним, четко описывая то, что необходимо сделать
+        в рамках мониторинга выполнения проекта, что позволяет на любом этапе строительства контроировать процесс
+        из любой точки страны.
       </h6>
-      <h6>Each time you want to make a withdrawal,
-        Blank will create a new wallet address for you with the amount of crypto $$$ that you requested.
+      <h6>Необходимо всего лишь скачать приложение, зарегистрироваться и создать первый проект фото фиксации строительных работ.
       </h6>
     </div>
   </div>
@@ -23,16 +22,14 @@
       <img src="../static/howWork2.png" class="col-lg-6 col-md-8 col-sm-8">
     </div>
     <div class="col-lg-5 col-md-5 col-sm-5 order-first">
-      <h3>Metamask x Tornado Cash</h3>
-      <h6>Your funds go into the smart contract as yours but they exit named Blank.
-        We use cryptographic proofs to guarantee that no one can link your withdrawals to deposits,
-        unless you want them to. In technical language, we use the zkSnark technology to do it.
-        Only the user gets the secret to a given deposit, which allows to withdraw the correlating funds from Blank under a new address.
+      <h3>Мониторинг одного проекта могут производить стразу несколько человек</h3>
+      <h6>Если у вас возникла необходимость мониторть разные части одного проекта, то вы можете назначать разных
+        исполнителей на разные задачи в рамках одного проекта.
       </h6>
       <ol>
-        <li>ETH, WBTC and all ERC-20 support</li>
-        <li>ETH, WBTC and all ERC-20 support</li>
-        <li>Partial Withdraw</li>
+        <li>Дайте ссылку на эту страниц, чтобы исполнители скачали приложение</li>
+        <li>Добавьте исполнителей по их электронной почте в проект</li>
+        <li class="text-danger">Дайте задачу конкретному исполнителю</li>
       </ol>
     </div>
   </div>
@@ -42,15 +39,17 @@
      <img src="../static/howWork3.png" class="col-lg-6 col-md-8 col-sm-8">
     </div>
     <div class="col-lg-5 col-md-5 col-sm-5">
-      <h3>The first-ever Chrome extension that gives you an untraceable identity.</h3>
-      <h6>Create a wallet, receive a backup seed key,
-        deposit your crypto $$$ and let automation do the rest - we'll mix your funds with the pool
-        of coins in Blank to hide their origin.
+      <h3>Вы также можете создавать дефектные ведомости</h3>
+      <h6>Если исполнителю необходимо отчитаться о возникшнй проблеме с максимальными подробностями, то исполнитель
+        может создать и отправить заказчику дефектную ведомость.
       </h6>
       <ol>
-        <li>ETH, WBTC and all ERC-20 support</li>
-        <li>ETH, WBTC and all ERC-20 support</li>
-        <li>Partial Withdraw</li>
+        <li>Создайте задачу</li>
+        <li>Загружаете фотографии и описания дефектов в комментариях</li>
+        <li>Выполняете и завершаете поставленные задачи</li>
+        <li>Выбираете из форматов отчета "дефектная ведомость"</li>
+        <li>Нажимаете кнопку создать отчет</li>
+        <li class="text-danger">Получаете готовую дефектную ведомость в необходимом формате</li>
       </ol>
     </div>
   </div>
