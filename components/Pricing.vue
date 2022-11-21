@@ -1,11 +1,11 @@
 <template>
-<div id="pricing" class="pricing d-flex align-items-center justify-content-center">
+<div id="pricing" class="pricing d-flex align-items-center justify-content-center mb-4">
   <section id="price-section">
     <div class="container">
       <div class="row justify-content-center gapsectionsecond">
         <div class="col-lg-7 text-center">
-          <div class="title-big pb-3 mb-3">
-            <h2>SERVICE PRICES</h2>
+          <div class="title-big pb-2 mb-2">
+            <h2>Стоимость услуг</h2>
           </div>
           <h6 class="description-p text-muted pe-0 pe-lg-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas optio reiciendis deleniti voluptatem facere sequi, quia, est sed dicta aliquid quidem facilis culpa iure perferendis? Dolor ad quia deserunt.
@@ -16,63 +16,63 @@
         <div class="col-lg-4 pb-5 pb-lg-0">
           <div class="wrap-price">
             <div class="price-innerdetail text-center">
-              <h5>MINIMUM BASIC SERVICE</h5>
-              <p class="prices">150$</p>
+              <h5>Старт</h5>
+              <p class="prices">0₽</p>
               <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
-                <span class="float-right">4 Hours</span>
+                <span class="float-left"> <i class="bi bi-check2-circle"></i>Количество проектов</span>
+                <span class="float-right">1</span>
               </div>
               <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
-                <span class="float-right">50 - 200</span>
+                <span class="float-left"> <i class="bi bi-check2-circle"></i>Доступная память</span>
+                <span class="float-right">2 ГБ</span>
               </div>
               <div class="detail-pricing">
-                <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
-                <span class="float-right">Style</span>
+                <span class="float-left"> <i class="bi bi-check2-circle"></i>Роль администратора</span>
+                <span class="float-right">Нет</span>
               </div>
-              <a href="#" class="btn btn-primary mt-5 align-items-center">Schedule</a>
+              <a href="#" class="btn btn-primary mt-5 align-items-center">Войти в личным кабинет</a>
             </div>
         </div>
     </div>
     <div class="col-lg-4 pb-5 pb-lg-0">
       <div class="wrap-price center-wrap">
         <div class="price-innerdetail text-center">
-          <h5>PRO SERVICE</h5>
-          <p class="prices">350$</p>
+          <h5>Премиум</h5>
+          <p class="prices">350₽</p>
           <div class="detail-pricing">
-            <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
-            <span class="float-right">4 Hours</span>
+            <span class="float-left"> <i class="bi bi-check2-circle"></i>Количество проектов</span>
+            <span class="float-right" style="font-size: 1.5em">∞</span>
           </div>
           <div class="detail-pricing">
-            <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
-            <span class="float-right">50 - 200</span>
+            <span class="float-left"> <i class="bi bi-check2-circle"></i>Доступная память</span>
+            <span class="float-right" style="font-size: 1.5em">∞</span>
           </div>
           <div class="detail-pricing">
-            <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
-            <span class="float-right">Style</span>
+            <span class="float-left"> <i class="bi bi-check2-circle"></i>Роль администратора</span>
+            <span class="float-right">Есть</span>
           </div>
-          <a href="#" class="btn btn-primary mt-5 align-items-center">Schedule</a>
+          <a href="#" class="btn btn-primary mt-5 align-items-center">Войти в личным кабинет</a>
         </div>
       </div>
       </div>
       <div class="col-lg-4 pb-5 pb-lg-0">
         <div class="wrap-price">
           <div class="price-innerdetail text-center">
-            <h5>STANDART SERVICE</h5>
-            <p class="prices">250$</p>
+            <h5>Базовый</h5>
+            <p class="prices">250₽</p>
             <div class="detail-pricing">
-              <span class="float-left"> <i class="bi bi-check2-circle"></i> Photoshoot duration </span>
-              <span class="float-right">4 Hours</span>
+              <span class="float-left"> <i class="bi bi-check2-circle"></i>Количество проектов</span>
+              <span class="float-right">5</span>
             </div>
             <div class="detail-pricing">
-              <span class="float-left"> <i class="bi bi-check2-circle"></i> Number photo</span>
-              <span class="float-right">50 - 200</span>
+              <span class="float-left"> <i class="bi bi-check2-circle"></i>Доступная память</span>
+              <span class="float-right">10 ГБ</span>
             </div>
             <div class="detail-pricing">
-              <span class="float-left"> <i class="bi bi-check2-circle"></i> Consultation</span>
-              <span class="float-right">Style</span>
+              <span class="float-left"> <i class="bi bi-check2-circle"></i>Роль администратора</span>
+              <span class="float-right">Есть</span>
             </div>
-            <a href="#" class="btn btn-primary mt-5 align-items-center">Schedule</a>
+            <a href="#" class="btn btn-primary mt-5 align-items-center">Войти в личным кабинет</a>
           </div>
         </div>
       </div>
